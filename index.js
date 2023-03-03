@@ -26,7 +26,7 @@ function startGame() {
         cells[i].style.color = "white"
         cells[i].addEventListener("click", turnClick, false)
     }
-    turn(bestSpot(), aiPlayer)
+//     turn(bestSpot(), aiPlayer)
 }
 function turnClick(event) {
     if (typeof origBoard[event.target.id] == "number") {
