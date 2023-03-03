@@ -1,17 +1,43 @@
-.col{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
+* {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #2b3467;
 }
-.row{
-    display: flex;
-    flex-direction: row;
+.text{
+    font-size: 3rem;
 }
-.cell{
-    width: 50px;
-    height: 50px;
-    border: solid;
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.cell {
+  font-size: 3rem;
+  width: 100px;
+  height: 100px;
+  border: solid 1px;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+}
+
+#button {
+  width: 200px;
+  height: 50px;
+  font-size: 1rem;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.buttondiv {
+  width: 200px;
+  height: 50px;
 }
